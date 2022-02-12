@@ -1,0 +1,160 @@
+img{
+    max-width: 100%;
+}
+/* .header-section */
+.header-section {
+	background-color: #fff;
+	padding: 23px 0;
+	
+}
+.header-icon{}
+.header-icon a img{}
+
+.header-text{}
+.header-text a {
+	color: #17181d;
+	transition: .5s;
+	font-weight: 502;
+	text-decoration: none;
+	font-size: 28px;
+	/* margin-top: 13px; */
+	line-height: 30px;
+}
+.header-text a:hover{
+	color: #455835 !important;
+
+}
+
+.header-menu{}
+.header-menu ul{}
+.header-menu ul li {
+	display: inline-block;
+	margin-right: 26px;
+}
+.header-menu ul li a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	line-height: 32px;
+	display: inline-block;
+}
+.header-menu ul li a:hover{}
+
+.header-batton{}
+.header-batton button {
+	width: 118px;
+	height: 47px;
+}
+
+/* banner-section */
+.banner-section {
+	background: url(https://i.ibb.co/Sv1HcVC/mbr-10.jpg) no-repeat center;
+	background-size: cover;
+	padding: 225px 0;
+	z-index: -1;
+}
+.banner-section::after{
+content: "";
+height: 100%;
+width: 100%;
+background-color: rgba(41, 32, 32, 0.521);
+z-index: 1;
+}
+
+
+.banner-text {
+	margin-top: -100px;
+	color: #fff;
+}
+.banner-text h1 {
+	font-weight: 574;
+	font-size: 47px;
+	margin-top: 27px;
+}
+
+.banner-form {
+	margin-left: 306px;
+	margin-top: 48px;
+}
+.banner-form .email {
+	padding: 18px 41px;
+	box-shadow: 6px 4px 15px 6px #18191d;
+	border-radius: 5px;
+}
+.banner-form a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 512;
+	background-color: #5ba533;
+	border: 2px solid transparent;
+	padding: 18px 86px;
+	margin-left: 12px;
+	border-radius: 7px;
+	transition: .5s;
+}
+.banner-form a:hover{
+	background-color: #fff;
+	color: #6278df;
+	border: 2px solid #6278df;
+	box-shadow: 4px 4px 5px 4px #565e86;
+
+}
+
+/* score-section */
+.score {
+	padding: 45px 0px;
+}
+.score h1 {
+	font-size: 55px;
+	font-weight: 504;
+}
+.score h5{}
+
+
+/* active-sectioon */
+.active-section {
+	background-color: #f7f9ff;
+	padding: 50px;
+}
+.active-left {
+	margin-top: 107px;
+}
+.active-left h1 {
+	font-weight: 502;
+	font-size: 46px;
+}
+.active-left p {
+	font-size: 21px;
+}
+
+.active-right{}
+.active-right img{}
+
+
+/* learn-section */
+.learn-section{
+	padding: 100px;
+}
+.learn-text{}
+.learn-text h1 {
+	font-size: 47px;
+}
+.learn-text p {
+	font-size: 26px;
+	font-weight: 200;
+}
+/* card-section */
+
+.card-img {
+	height: 241px;
+	width: auto;
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+.card{
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
